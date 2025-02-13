@@ -9,7 +9,7 @@ spec:
   lifecycle: unknown
   owner: guests
   dependsOn:
-    - environmentVariable/default/backstage-testing-env
+    - environmentVariable:default/backstage-testing-env
 ---
 apiVersion: example.com/v1
 kind: EnvironmentVariables
