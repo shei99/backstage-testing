@@ -9,7 +9,7 @@ spec:
   lifecycle: unknown
   owner: guests
   relations:
-    - type: example.com/v1/EnvironmentVariables
+    - type: example.com/EnvironmentVariables
       target: backstage-testing-env
 ---
 apiVersion: example.com/v1
