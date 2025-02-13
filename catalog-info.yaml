@@ -17,6 +17,15 @@ metadata:
   name: backstage-testing-env
 spec:
   environmentVariables:
-    - name: foobar
-      description: this is used to do x
+    - name: foo
+      description: this is used to do foo
       version: 3.3.0
+    - name: foobar
+      description: this is used to do foobar
+      version: 3.4.0
+    - name: bar
+      description: this is used to do bar
+      version: 3.4.0
+    - name: test
+      description: this is used to do test
+      version: 3.5.0
