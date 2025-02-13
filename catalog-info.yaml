@@ -8,7 +8,7 @@ spec:
   type: other
   lifecycle: unknown
   owner: guests
-  relations:
+  dependsOn:
     - type: example.com/EnvironmentVariables
       target: backstage-testing-env
 ---
