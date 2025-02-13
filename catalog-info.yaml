@@ -1,14 +1,3 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: backstage-testing
-  annotations:
-    github.com/project-slug: shei99/backstage-testing
-spec:
-  type: other
-  lifecycle: unknown
-  owner: guests
----
 apiVersion: example.com/v1
 kind: EnvironmentVariables
 metadata:
