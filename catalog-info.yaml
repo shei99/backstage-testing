@@ -8,3 +8,13 @@ spec:
   type: other
   lifecycle: unknown
   owner: guests
+---
+apiVersion: example.com/v1
+kind: EnvironmentVariables
+metadata:
+  name: backstage-testing-env
+spec:
+  environmentVariables:
+    - name: foobar
+      description: this is used to do x
+      version: 3.3.0
